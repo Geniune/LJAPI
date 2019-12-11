@@ -21,7 +21,4 @@
  */
 - (void)requestURL:(NSString *)url params:(NSDictionary *)params method:(NSString *)method success:(void(^)(id responseObj))success failure:(void(^)(NSError *error))failure;
 
-//取消上一个请求
-- (void)cancleLastRequest;
-
 @end
