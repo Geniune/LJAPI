@@ -44,15 +44,6 @@
     }];
 }
 
-//取消上一个请求
-- (void)cancleLastRequest{
-    
-    if(_disposable){
-        [_disposable dispose];
-        _disposable = nil;
-    }
-}
-
 - (void)process{
     
     if (_http) {
